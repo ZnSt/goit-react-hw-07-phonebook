@@ -28,7 +28,6 @@
     "start": "concurrently \"npm run dev\" \"npm run server\"",
     "build": "react-scripts build",
     "test": "react-scripts test"
-    
   },
   "eslintConfig": {
     "extends": [
