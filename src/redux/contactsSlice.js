@@ -24,6 +24,7 @@ const contactsSlice = createSlice({
     },
   },
   extraReducers: {
+    // fetch
     [fetchAllContacts.pending](state, _) {
       state.isLoading = true;
     },
@@ -37,6 +38,7 @@ const contactsSlice = createSlice({
       state.error = action.payload;
     },
 
+    // add
     [fetchAddContact.pending](state) {
       state.isLoading = true;
     },
@@ -50,11 +52,11 @@ const contactsSlice = createSlice({
       state.error = action.payload;
     },
 
+    // delete
     [fetchDeleteContact.pending](state) {
       state.isLoading = true;
     },
     [fetchDeleteContact.fulfilled](state, action) {
-        
       state.isLoading = false;
       state.error = null;
       const index = state.contacts.findIndex(

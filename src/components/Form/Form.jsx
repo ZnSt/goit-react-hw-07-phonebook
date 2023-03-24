@@ -1,14 +1,17 @@
 import React from 'react';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
+import moment from 'moment';
 import { toast } from 'react-toastify';
 import { fetchAddContact } from 'redux/operations';
 
 import { FormContainer, FormSt, Input, Btn } from './Form.styled';
 
 export const Form = () => {
-  const dispatch = useDispatch();
   
+  const createdAt = moment().format()
+  const dispatch = useDispatch();
+
   const [name, setName] = useState('');
   const [phon, setPhon] = useState('');
 
@@ -17,7 +20,7 @@ export const Form = () => {
     if (name === '' || phon === '') {
       return toast.warning('Please, enter all fields');
     }
-    dispatch(fetchAddContact({ name, phon }));
+    dispatch(fetchAddContact({createdAt, name, phon }));
     reset();
   };
 
