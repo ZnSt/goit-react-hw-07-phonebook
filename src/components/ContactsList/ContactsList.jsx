@@ -15,8 +15,10 @@ export const ContactsList = () => {
   useEffect(() => {
     dispatch(fetchAllContacts());
   }, [dispatch]);
-  
+
+  console.log('render')
   return (
+      
     <Container>
       {isLoading && <h1>Loading...</h1>}
       {!isLoading && (

@@ -1,70 +1,10 @@
 {
   "contacts": [
     {
-      "createdAt": "2023-03-23T09:04:25.371Z",
-      "name": "Fernando Denesik",
-      "phon": "1-883-520-9617 x76281",
-      "id": "1"
-    },
-    {
-      "createdAt": "2023-03-22T16:53:01.105Z",
-      "name": "Bessie Skiles",
-      "phon": "(748) 635-4235 x07802",
-      "id": "3"
-    },
-    {
-      "createdAt": "2023-03-23T03:41:13.334Z",
-      "name": "Melvin Mayert",
-      "phon": "204-438-6465 x689",
-      "id": "4"
-    },
-    {
-      "createdAt": "2023-03-23T02:16:06.505Z",
-      "name": "Nettie Christiansen",
-      "phon": "259-973-4021 x861",
-      "id": "5"
-    },
-    {
-      "createdAt": "2023-03-22T17:48:32.239Z",
-      "name": "Roger Hayes",
-      "phon": "216-947-6433 x8220",
-      "id": "6"
-    },
-    {
-      "createdAt": "2023-03-24T15:30:44+02:00",
+      "createdAt": "2023-03-24T18:53:13+02:00",
       "name": "Stanislav",
       "phon": "+3909933958342",
-      "id": "cT2VCOi"
-    },
-    {
-      "createdAt": "2023-03-24T15:41:52+02:00",
-      "name": "Офсщи",
-      "phon": "54897539847",
-      "id": "OLxhb9h"
-    },
-    {
-      "createdAt": "2023-03-24T15:47:20+02:00",
-      "name": "Stanislav",
-      "phon": "+3909933958342",
-      "id": "My7Vzmg"
-    },
-    {
-      "createdAt": "2023-03-24T15:47:57+02:00",
-      "name": "Znova",
-      "phon": "+3909933958342",
-      "id": "QiFlrUv"
-    },
-    {
-      "createdAt": "2023-03-24T15:48:07+02:00",
-      "name": "lesson-1",
-      "phon": "43904823094",
-      "id": "Dt8sZBe"
-    },
-    {
-      "createdAt": "2023-03-24T15:54:03+02:00",
-      "name": "Stanislav",
-      "phon": "+3909933958342",
-      "id": "wNx4VGi"
+      "id": 1
     }
   ]
 }

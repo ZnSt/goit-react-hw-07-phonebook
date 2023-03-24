@@ -6,6 +6,8 @@ export const Container = styled.div`
 
 export const Ul = styled.ul`
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 10px;
 `;

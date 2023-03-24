@@ -23,7 +23,6 @@ export const Input = styled.input`
   outline: none;
 
   ::placeholder {
-    color: black;
     font-size: 20px;
   }
 `;
