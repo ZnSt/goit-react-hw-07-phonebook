@@ -3,11 +3,12 @@ import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { toast } from 'react-toastify';
 import { fetchAddContact } from 'redux/operations';
+
 import { FormContainer, FormSt, Input, Btn } from './Form.styled';
 
 export const Form = () => {
   const dispatch = useDispatch();
-
+  
   const [name, setName] = useState('');
   const [phon, setPhon] = useState('');
 

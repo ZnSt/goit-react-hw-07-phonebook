@@ -54,10 +54,11 @@ const contactsSlice = createSlice({
       state.isLoading = true;
     },
     [fetchDeleteContact.fulfilled](state, action) {
+        
       state.isLoading = false;
       state.error = null;
       const index = state.contacts.findIndex(
-        contact => contact.id === action.payload.id
+        contact => contact.id === action.payload
       );
       state.contacts.splice(index, 1);
     },

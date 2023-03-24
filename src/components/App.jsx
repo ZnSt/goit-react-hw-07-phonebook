@@ -9,7 +9,7 @@ export const App = () => {
     <div>
       <ToastContainer />
       <Form />
-      <Filter/>
+      <Filter />
       <ContactsList />
     </div>
   );

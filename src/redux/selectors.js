@@ -1,4 +1,5 @@
 export const selectFilter = state => state.filter;
+export const selectLoading = state => state.isLoading;
 
 export const getVisibleContacts = state => {
   const filterQuery = state.filter;

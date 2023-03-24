@@ -32,11 +32,13 @@ export const fetchDeleteContact = createAsyncThunk(
   async (contactId, thunkAPI) => {
     try {
       const response = await axios.delete(`/contacts/${contactId}`);
-      return response.data;
+      if (response.status === 200) {
+        return contactId;
+      } else {
+        return;
+      }
     } catch (error) {
       return thunkAPI.rejectWithValue(error.message);
     }
   }
 );
-
-
