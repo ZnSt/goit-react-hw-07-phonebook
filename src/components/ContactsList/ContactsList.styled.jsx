@@ -10,6 +10,7 @@ export const Ul = styled.ul`
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
+  overflow: hidden;
 `;
 export const Li = styled.li`
   border: 2px solid black;
